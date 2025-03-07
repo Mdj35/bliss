@@ -155,3 +155,28 @@ export const RecommendationItem = styled.div`
     background-color: #f0f0f0;
   }
 `;
+
+// Define PaginationContainer styled component
+export const PaginationContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+`;
+
+// Define PaginationButton styled component
+export const PaginationButton = styled.button`
+  background-color: #1E90FF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+
+  &:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+`;
